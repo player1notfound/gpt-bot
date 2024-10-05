@@ -27,8 +27,9 @@ This Discord bot leverages the OpenAI API to facilitate engaging conversations w
 
 2. Install the necessary packages:
    ```bash
-   npm install
-4. Create a .env file in the root directory and add your API keys:
+   npm install discord.js dotenv openai
+   
+4. Create a .env file in the root directory and add your API keys and discord token:
    ```bash
    TOKEN=your_discord_bot_token
    OPENAI_KEY=your_openai_api_key
