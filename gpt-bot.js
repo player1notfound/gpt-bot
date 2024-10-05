@@ -1,5 +1,5 @@
 
-require('dotenv/config'); //give access to all the environment variables from .env 
+require('dotenv/config'); // give access to all the environment variables from .env 
 const { Client } = require('discord.js');
 const { OpenAI } = require('openai');
 
